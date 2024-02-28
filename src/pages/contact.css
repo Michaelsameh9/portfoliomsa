@@ -1,0 +1,204 @@
+.p-9 {
+    font-size: 20px;
+    font-family: ultr;
+    color: white;
+    line-height: 55px;
+}
+
+.name {
+    background-color: black;
+    font-family: ultr;
+    width: 300px;
+    height: 40px;
+    font-size: 22px;
+    border: none;
+    border-bottom: 1px solid rgb(206, 196, 196);
+    margin-right: 5%;
+    color: white;
+
+}
+
+.name:focus-visible {
+    outline: none;
+    border-bottom-color: white;
+    color: white;
+}
+
+.message {
+    margin-top: 7%;
+}
+
+.message1 {
+    background-color: black;
+    border: none;
+    font-size: 22px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(206, 196, 196);
+    color: white;
+    width: 650px;
+}
+
+.message1:focus-visible {
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid rgb(206, 196, 196);
+}
+
+
+label {
+    font-size: 22px;
+    font-family: ultr;
+
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.btn {
+    padding: 5% 33%;
+}
+
+.btn-msg {
+    color: white;
+    font-size: 18px;
+    font-family: ultr;
+    height: 50px;
+    width: 155px;
+    font-weight: 700;
+    background: #333;
+    border-color: #333;
+    transition: all .5s ease-in-out;
+
+}
+
+.btn-msg:hover {
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+
+.errors {
+    color: red;
+    font-size: 20px;
+    font-family: ultr;
+    width: 300px;
+    display: flex;
+
+
+}
+
+@media (min-width:320px)and (max-width:480px) {
+    .p-9 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .name {
+        width: 250px;
+        margin-top: 2%;
+    }
+
+    .message1 {
+        width: 270px;
+    }
+
+    .bg-serge {
+        width: 280px;
+
+    }
+
+    .form-floating>label {
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width:481px)and (max-width:768px) {
+    .name {
+        margin-top: 5%;
+    }
+
+    .form-floating>label {
+        font-size: 18px;
+    }
+
+    .message1 {
+        width: 380px;
+    }
+
+    .bg-serge {
+        width: 455px;
+
+    }
+
+}
+
+@media (min-width:769px)and (max-width:991px) {
+    .bg-serge {
+        width: 412px;
+        padding-left: 18%;
+        padding-top: 35%;
+    }
+
+    .p-9 {
+        font-size: 18px;
+        font-family: ultr;
+        color: white;
+        line-height: 40px;
+        width: 119%;
+    }
+
+    .form-group {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .name {
+        width: 190px;
+        height: 38px;
+        font-size: 18px;
+        margin-right: 2%;
+        border-radius: 6px;
+    }
+    .message1 {
+        width: 370px;
+    }
+    .form-floating>label {
+        font-size: 20px;
+    }
+
+}
+@media (min-width:992px)and (max-width:1050px) {
+    .bg-serge {
+        width: 405px;
+        padding-left: 0%;
+        padding-top: 17%;
+    }
+
+    .p-9 {
+        font-size: 18px;
+        font-family: ultr;
+        color: white;
+        line-height: 40px;
+        width: 119%;
+    }
+
+    .form-group {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .name {
+        width: 215px;
+        height: 42px;
+        font-size: 18px;
+        margin-right: 3%;
+        border-radius: 6px;
+    }
+    .message1 {
+        width: 450px;
+    }
+    .form-floating>label {
+        font-size: 20px;
+    }
+}

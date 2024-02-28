@@ -1,0 +1,164 @@
+.prints {
+    margin-top: 6%;
+    margin-left: 10%;
+    width: 125%;
+}
+
+.p-4 {
+    color: white;
+    font-family: ultr;
+    font-size: 44px;
+    font-weight: 500;
+    margin-left: 37%;
+}
+
+.prints-1 {
+    padding-top: 2%;
+}
+
+.h-3 {
+    color: white;
+    font-family: ultr;
+    font-weight: 500;
+    padding-top: 5%;
+}
+
+.h-4 {
+    color: white;
+    font-family: ultr;
+    font-weight: 500;
+    padding-top: 5%;
+    margin-bottom: 10%;
+}
+
+.p-5 {
+    color: white;
+    font-family: ultr;
+    font-size: 18px;
+    width: 151%;
+    margin: 0%;
+    margin-left: -15%;
+    margin-top: -11%;
+}
+
+.a-1 {
+    font-size: 16px;
+    font-family: ultr;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #d2a556;
+    background-color: #d2a556;
+    height: 20px;
+    padding: 3% 3%;
+    border-radius: 5px;
+}
+
+.cards {
+    margin-right: 7%;
+    margin-bottom: 7%;
+}
+
+.p-6 {
+    font-size: 17px;
+    font-weight: 500;
+    color: #d2a556;
+}
+
+@media (min-width:320px)and (max-width:480px) {
+    .prints {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .p-4 {
+        font-size: 21px;
+        margin-left: 31%;
+    }
+
+    .bg-card {
+        width: 300px;
+
+    }
+
+}
+
+@media (min-width:481px)and (max-width:768px) {
+    .prints {
+        width: 117%;
+        margin-left: 0%;
+    }
+
+    .p-4 {
+        font-size: 28px;
+        margin-left: 77%;
+        margin-top: 25%;
+    }
+
+    .bg-card {
+        width: 460px;
+
+    }
+
+    .h-3 {
+        padding-top: 13%;
+        width: 125%;
+    }
+
+    .p-5 {
+        width: 320%;
+        margin-left: -25%;
+        margin-top: -26%
+    }
+
+    .p-6 {
+        width: 135%;
+    }
+
+    .h-4 {
+        width: 129%;
+    }
+
+}
+@media (min-width:769px)and (max-width:991px) {
+    .prints {
+        width: 225%;
+    }
+    .bg-card{
+        width: 130%;
+        height: 80%;
+
+    }
+    .p-5 {
+        width: 143%;
+        margin-left: -8%;
+        margin-top: -8%;
+    }
+
+}
+@media (min-width:992px)and (max-width:1050px) {
+    .prints {
+        width: 400%;
+    }
+    .bg-card {
+        width: 139%;
+        height: 61%;
+    }
+    .p-5 {
+        width: 171%;
+        margin-left: -19%;
+        margin-top: -11%;
+    }
+    .cards {
+        margin-right: 8%;
+    }
+    .h-3 {
+        width: 111%;
+    }
+    .h-4 {
+        width: 130%;
+    }
+    .p-6 {
+        width: 103%;
+    }
+
+}

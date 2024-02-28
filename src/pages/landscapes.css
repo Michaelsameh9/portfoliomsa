@@ -1,0 +1,244 @@
+.p-p {
+    width: 134%;
+    padding-top: 6%;
+}
+
+.content-1 {
+    margin-top: 5%;
+}
+
+.model {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0);
+    overflow: hidden;
+    z-index: 999;
+}
+
+.model.open {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+
+}
+
+.model img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    display: block;
+    line-height: 0;
+    box-sizing: border-box;
+    padding: 20px 0px 20px;
+    margin: 0 auto;
+
+}
+
+.closButon {
+    width: 50px;
+    height: 7vh;
+    margin-left: 90%;
+    color: white;
+    position: absolute;
+    top: 2%;
+}
+
+.img-5 {
+    width: 105%;
+    padding: 4.2px;
+    border-radius: 7px;
+    transition: all 350ms ease-in-out;
+    transform-style: preserve-3d;
+
+}
+
+.img-5:hover {
+    transform: scale(1.01) rotateX(10deg) rotateY(10deg);
+    opacity: .8;
+
+}
+
+.bgitay {
+    margin-top: -38%;
+    width: 105%;
+    padding: 4.2px;
+    border-radius: 7px;
+    transition: all 350ms ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.bgitay:hover {
+    transform: scale(1.01) rotateX(10deg) rotateY(10deg);
+    opacity: .8;
+
+}
+
+.img-6 {
+    margin-top: -15%;
+    width: 105%;
+    padding: 4.2px;
+    border-radius: 7px;
+    transition: all 350ms ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.img-6:hover {
+    transform: scale(1.01) rotateX(10deg) rotateY(10deg);
+    opacity: .8;
+
+}
+
+.img-7 {
+    margin-top: -25%;
+    width: 105%;
+    padding: 4.2px;
+    border-radius: 7px;
+    transition: all 350ms ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.img-7:hover {
+    transform: scale(1.01) rotateX(10deg) rotateY(10deg);
+    opacity: .8;
+
+}
+
+.img-8 {
+    margin-top: -58%;
+    width: 105%;
+    padding: 4.2px;
+    border-radius: 7px;
+    transition: all 350ms ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.img-8:hover {
+    transform: scale(1.01) rotateX(10deg) rotateY(10deg);
+    opacity: .8;
+
+}
+
+.img-6 {
+    margin-top: -15%;
+    width: 105%;
+    padding: 4.2px;
+    border-radius: 7px;
+    transition: all 350ms ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.img-6:hover {
+    transform: scale(1.01) rotateX(10deg) rotateY(10deg);
+    opacity: .8;
+
+}
+
+.img-4 {
+    margin-top: -82%;
+    width: 105%;
+    padding: 4.2px;
+    border-radius: 7px;
+    transition: all 350ms ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.img-4:hover {
+    transform: scale(1.01) rotateX(10deg) rotateY(10deg);
+    opacity: .8;
+
+}
+
+.img-3 {
+    margin-top: -135%;
+    width: 105%;
+    padding: 4.2px;
+    border-radius: 7px;
+    transition: all 350ms ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.img-3:hover {
+    transform: scale(1.01) rotateX(10deg) rotateY(10deg);
+    opacity: .8;
+
+}
+
+.img-2 {
+    margin-top: 2%;
+    width: 105%;
+    padding: 4.2px;
+    border-radius: 7px;
+    transition: all 350ms ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.img-2:hover {
+    transform: scale(1.01) rotateX(10deg) rotateY(10deg);
+    opacity: .8;
+
+}
+
+@media (min-width:320px)and (max-width:480px) {
+    .p-p {
+        width: 131%;
+    }
+
+    .p-1 {
+        font-size: 20px;
+        margin-top: 9%;
+
+
+    }
+}
+
+@media (min-width:481px)and (max-width:768px) {
+    .p-p {
+        width: 313%;
+    }
+
+    .p-1 {
+        font-size: 26px;
+        margin-top: 8%;
+
+    }
+
+    ;
+}
+
+@media (min-width:769px)and (max-width:991px) {
+    .p-p {
+        width: 306%;
+    }
+
+    .model.open {
+        padding: 0%;
+    }
+
+    .closButon {
+        top: 5%;
+    }
+}
+    @media (min-width:992px)and (max-width:1050px) {
+        .p-p {
+            width: 411%;
+        }
+    
+        .model.open {
+            padding: 0%;
+        }
+    
+        .closButon {
+            top: 8%;
+        } 
+    }

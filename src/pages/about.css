@@ -1,0 +1,170 @@
+.content-3 {
+    border-bottom: 1px solid rgb(139, 135, 135);
+}
+
+.content-4 {
+    padding-left: 14%;
+}
+
+.contact-5 {
+    margin-left: 13%;
+    margin-top: 3%;
+    margin-right: 13%;
+
+}
+
+.img-about {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.title-2 {
+    margin-top: 3%;
+}
+
+.s-1 {
+    color: white;
+    font-family: ultr;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    margin-top: 3%;
+
+}
+
+a.link-about {
+    font-family: ultr;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    margin-top: 3%;
+    color: #d2a556;
+    text-decoration: none;
+
+}
+
+a.link-about:hover {
+    text-decoration: underline;
+}
+
+.s-2 {
+    font-family: ultr;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin-top: 8%;
+    color: #d2a556;
+}
+
+.s-3 {
+    font-family: ultr;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin-top: 1%;
+    color: white;
+}
+
+@media (min-width:320px)and (max-width:480px) {
+    .contact-5 {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    a.link-about {
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .img-about {
+        width: 127%;
+    }
+
+    .s-1 {
+        width: 127%;
+    }
+
+    .s-2 {
+        width: 127%;
+        font-size: 15px;
+    }
+
+    .s-3 {
+        width: 130%;
+        font-size: 14px;
+    }
+
+
+}
+
+@media (min-width:481px)and (max-width:768px) {
+    .contact-5 {
+        margin-left: 1%;
+        margin-top: 3%;
+        margin-right: 0%;
+    }
+
+    .content-4 {
+        padding-left: 7%;
+        width: 137%;
+    }
+
+    .img-about {
+        width: 140%;
+    }
+
+    .s-1 {
+        width: 145%;
+    }
+
+    .s-2 {
+        width: 137%;
+    }
+
+    .s-3 {
+        width: 123%;
+    }
+}
+
+@media (min-width:769px)and (max-width:1024px) {
+    .img-about {
+        width: 126%;
+        margin-left: -3%;
+    }
+
+    .s-1 {
+        font-size: 17px;
+        width: 128%;
+        font-weight: 500;
+        margin-top: 4%;
+        margin-left: -2%;
+    }
+    a.link-about {
+        font-size: 18px;
+        width: 122%;
+        margin-left: -2%;
+    }
+}
+@media (min-width:992px)and (max-width:1050px) {
+    .img-about {
+        width: 103%;
+        margin-left: -2%;
+    }
+
+    .s-1 {
+        font-size: 17px;
+        width: 105%;
+        font-weight: 500;
+        margin-top: 4%;
+        margin-left: -2%;
+    }
+    a.link-about {
+        font-size: 18px;
+        width: 122%;
+        margin-left: -2%;
+    }
+    .s-2 {
+        margin-left: -2%;
+    }
+}

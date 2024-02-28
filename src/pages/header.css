@@ -1,0 +1,660 @@
+body {
+    background-color: black;
+
+}
+
+@font-face {
+    font-family: ultr;
+    src: url(/public/QILAVOEN\ Trial.ttf);
+}
+
+ul {
+    list-style: none;
+    padding-left: 27%;
+    padding-top: 1%;
+    margin-bottom: 0%;
+    z-index: 1;
+    position: fixed;
+
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 0px 16px;
+    text-decoration: none;
+    color: white;
+    opacity: .8;
+    font-size: 16px;
+    font-family: "ultr";
+    font-weight: 500;
+}
+
+.nav-link2 li a:hover {
+    background-color: #c7c8c7;
+    border: 1px solid #c7c8c7;
+    border-radius: 4px;
+    opacity: .9;
+}
+
+.nav-link2 li a:active {
+    color: goldenrod;
+}
+
+ul li ul.dropdown li {
+    display: block;
+    margin: 2px 0px;
+}
+
+ul li ul.dropdown {
+    width: 240%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    background-color: black;
+    opacity: 1;
+    border-radius: 5px;
+
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+    padding: 14%;
+    text-align: left;
+}
+
+ul li ul.dropdown li a {
+    padding: 0%;
+}
+
+
+.nav-link {
+    margin-top: -1%;
+    display: flex;
+    position: fixed;
+    height: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -5%;
+}
+
+nav.nav-link ul li a :hover {
+    width: 25px;
+    height: 50px;
+}
+
+nav.nav-link ul li a.youtube-hov :hover {
+    width: 30px;
+    height: 60px;
+}
+
+.header {
+    padding-left: 0%;
+    margin-left: 0%;
+}
+
+.social-media {
+    height: 100px;
+    padding-left: 6%;
+}
+
+.modell {
+    width: 35%;
+    height: 46vh;
+    position: fixed;
+    top: 27%;
+    left: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000;
+    transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0);
+    overflow: hidden;
+    z-index: 999;
+    border: 2px solid rgba(255, 255, 255, 0.232);
+    border-radius: 1%;
+}
+
+.header-modal {
+    width: 100%;
+    display: block;
+    color: white;
+    font-family: ultr;
+    font-size: 22px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.149);
+    height: 75px;
+    padding: 3%;
+    margin: 0%;
+
+}
+
+.body-modal {
+    display: flex;
+    align-items: center;
+    margin-right: 65%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.link-model {
+    padding: 0%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.149);
+    width: 100%;
+    height: 120px;
+    padding-top: 9%;
+
+}
+
+.link-model li a:hover {
+    opacity: 1;
+    border: none;
+    border-radius: 0px;
+    background: none;
+
+}
+
+.modell.open {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+
+}
+
+.qr-scan {
+    width: 100%;
+    padding: 3%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.p-q {
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    font-family: ultr;
+    font-size: 14px;
+    padding-right: 20px;
+
+}
+
+.btn-meun {
+    visibility: hidden;
+}
+
+@media (min-width:320px)and (max-width:480px) {
+    .header {
+        width: 80%;
+    }
+
+    .btn-meun {
+        visibility: visible;
+
+    }
+
+    .nav-link2 {
+        height: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+        padding: 0%;
+        padding-top: 40%;
+        margin-right: 30%;
+        position: absolute;
+        display: none;
+
+
+    }
+
+    ul li a {
+        display: block;
+        padding: 6px 8px;
+        text-decoration: none;
+        font-size: 22px;
+    }
+
+    .p-2 {
+        visibility: hidden;
+    }
+
+    .p-3 {
+        visibility: hidden;
+    }
+
+    .nav-link {
+        z-index: 999;
+        margin-left: -30%;
+        margin-top: -6%;
+        top: 0%;
+        right: 69px;
+    }
+
+    ul .open {
+        display: flex;
+        transition: all .3s ease-in-out;
+
+
+    }
+
+    .open {
+        height: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+        padding: 0%;
+        padding-top: 40%;
+        margin-right: 30%;
+        position: absolute;
+        transition: all .3s ease-in-out;
+    }
+
+    .modell {
+        width: 96%;
+        height: 61%;
+        padding: 0%;
+        margin-left: -28%;
+        margin-top: -12%;
+    }
+
+    .body-modal {
+        margin: 0%;
+        flex-direction: column;
+    }
+
+    .qr {
+        width: 55px;
+        height: 55px;
+    }
+
+    .qr-scan {
+        padding: 7%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .link-model {
+        padding-top: 0%;
+    }
+
+    .closButon {
+        margin-left: 80%;
+    }
+
+    ul {
+        padding-left: 0%;
+    }
+
+
+}
+
+@media (min-width:481px)and (max-width:768px) {
+    .header {
+        width: 34%;
+    }
+
+    .btn-meun {
+        visibility: visible;
+
+    }
+
+    .nav-link2 {
+        height: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+        padding: 0%;
+        padding-top: 40%;
+        margin-right: 30%;
+        position: absolute;
+        display: none;
+
+
+    }
+
+    ul li a {
+        display: block;
+        padding: 6px 8px;
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+    .p-2 {
+        visibility: hidden;
+    }
+
+    .p-3 {
+        visibility: hidden;
+    }
+
+    .nav-link {
+        z-index: 999;
+        margin-left: -30%;
+        margin-top: -6%;
+        top: 3%;
+        right: 69px;
+    }
+
+    ul .open {
+        display: flex;
+        transition: all .3s ease-in-out;
+
+
+    }
+
+    .open {
+        height: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+        padding: 0%;
+        padding-top: 40%;
+        margin-right: 30%;
+        position: absolute;
+        transition: all .3s ease-in-out;
+    }
+
+    .modell {
+        width: 96%;
+        height: 61%;
+        padding: 0%;
+        margin-left: -28%;
+        margin-top: -12%;
+    }
+
+    .body-modal {
+        margin: 0%;
+        flex-direction: column;
+    }
+
+    .qr {
+        width: 75px;
+        height: 75px;
+    }
+
+    .qr-scan {
+        padding: 1%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 46%;
+    }
+
+    .link-model {
+        padding-top: 6%;
+        padding-left: 9%;
+    }
+
+    .closButon {
+        margin-left: 80%;
+    }
+
+    ul {
+        padding-left: 0%;
+    }
+
+}
+
+@media (min-width:769px)and (max-width:991px) {
+    .header {
+        width: 34%;
+    }
+
+    .btn-meun {
+        visibility: visible;
+
+    }
+
+    .nav-link2 {
+        height: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+        padding: 0%;
+        padding-top: 40%;
+        margin-right: 30%;
+        position: absolute;
+        display: none;
+
+
+    }
+
+    ul li a {
+        display: block;
+        padding: 6px 8px;
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+    .p-2 {
+        visibility: hidden;
+    }
+
+    .p-3 {
+        visibility: hidden;
+    }
+
+    .nav-link {
+        z-index: 999;
+        margin-left: -30%;
+        margin-top: -6%;
+        top: 3%;
+        right: 69px;
+    }
+
+    ul .open {
+        display: flex;
+        transition: all .3s ease-in-out;
+
+
+    }
+
+    .open {
+        height: 136%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+        padding: 0%;
+        padding-top: 24%;
+        margin-right: 30%;
+        position: absolute;
+        transition: all .3s ease-in-out;
+    }
+
+    .modell {
+        width: 96%;
+        height: 61%;
+        padding: 0%;
+        margin-left: -28%;
+        margin-top: -12%;
+    }
+
+    .body-modal {
+        margin: 0%;
+        flex-direction: column;
+    }
+
+    .qr {
+        width: 170px;
+        height: 170px;
+    }
+
+    .qr-scan {
+        margin-top: 10%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 46%;
+    }
+
+    .link-model {
+        padding: 13%;
+        text-align: center;
+    }
+
+    .closButon {
+        margin-left: 80%;
+    }
+
+    ul {
+        padding-left: 0%;
+    }
+
+    .p-q {
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width:992px)and (max-width:1050px) {
+    .header {
+        width: 34%;
+        margin: 0%;
+    }
+
+    .btn-meun {
+        visibility: visible;
+
+    }
+
+    .nav-link2 {
+        height: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+        padding: 0%;
+        padding-top: 40%;
+        margin-right: 30%;
+        position: absolute;
+        display: none;
+
+
+    }
+
+    ul li a {
+        display: block;
+        padding: 6px 8px;
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+    .p-2 {
+        visibility: hidden;
+    }
+
+    .p-3 {
+        visibility: hidden;
+    }
+
+    .nav-link {
+        z-index: 999;
+        margin-left: -30%;
+        margin-top: -6%;
+        top: 6%;
+        right: 69px;
+    }
+
+    ul .open {
+        display: flex;
+        transition: all .3s ease-in-out;
+
+
+    }
+
+    .open {
+        height: 136%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+        padding: 0%;
+        padding-top: 24%;
+        margin-right: 30%;
+        position: absolute;
+        transition: all .3s ease-in-out;
+    }
+
+    .modell {
+        width: 96%;
+        height: 61%;
+        padding: 0%;
+        margin-left: -28%;
+        margin-top: -12%;
+    }
+
+    .body-modal {
+        margin: 0%;
+        flex-direction: column;
+    }
+
+    .qr {
+        width: 170px;
+        height: 170px;
+    }
+
+    .qr-scan {
+        margin-top: 10%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 46%;
+    }
+
+    .link-model {
+        padding: 13%;
+        text-align: center;
+    }
+
+    .closButon {
+        margin-left: 80%;
+    }
+
+    ul {
+        padding-left: 0%;
+    }
+
+    .p-q {
+        font-size: 18px;
+    }
+
+}
